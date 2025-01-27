@@ -1,0 +1,48 @@
+# General
+HELP.md
+*.log
+
+# Java and Spring Boot build directories
+**/target/
+**/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Spring Boot Configuration Files
+**/application*.properties
+**/application*.yml
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+### Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Visual Studio Code ###
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
